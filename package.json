@@ -1,0 +1,21 @@
+{
+	"name" : "diet-upload",
+	"version": "v0.0.3",
+	"description": "File upload api for node.js",
+	"keywords": ["upload", "files", "mysql", "diet", "form", "multipart", "formidable", "async upload"],
+	"bugs" : { 
+		"url" : "http://github.com/adamhalasz/diet-uploads/issues"
+	, "email" : "mail@adamhalasz.com"
+	},
+	"license": "MIT",
+	"author" : {
+		"name"	: "Halász Ádám",
+		"email"	: "mail@adamhalasz.com",
+		"url"	:"http://adamhalasz.com/"
+	},
+	"dependencies": {
+		"formidable" : ">=1.0.9"
+	},
+	"main" : "index.js",
+	"engines" : { "node" : ">=0.8.21" }
+}
